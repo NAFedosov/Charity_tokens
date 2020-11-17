@@ -28,8 +28,8 @@ contract CharityToken is IERC20, owned {
 
   string public constant name = "CharityToken";
   string public constant symbol = "CHT";
-  uint8 public constant decimals = 12;
-  uint256 public constant INITIAL_SUPPLY = 3000000000000 * (10 ** uint256(decimals));
+  uint8 public constant decimals = 13;
+  uint256 public constant INITIAL_SUPPLY = 30000000000000 * (10 ** uint256(decimals));
 
   //0.0001 Euro = 1e12EuroWei = 1000000000000 EuroWei
   uint256 public priceOfOneTokenInEuroWei = 1000000000000;
