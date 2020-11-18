@@ -15,7 +15,7 @@ contract FiatContract {
 
 /**
  * @title CharityToken
- * 
+ * added a comment
  * One Ether is 1e18 Wei
  * One Euro  is 1e18 EuroWei
  *
